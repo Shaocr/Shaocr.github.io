@@ -12,5 +12,5 @@ module.exports = {
   //是否在build的时候开启gzip 对静态文件进行压缩
   //如果这个网页是放在github pages之类的静态文件托管服务器上的话 那你可以开启
   //如果你是放在自己的Nginx服务器下, 一般Nginx都会开启gzip 那此处也就不用开启gzip了
-  gzip: true
+  gzip: false
 }
